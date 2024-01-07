@@ -71,7 +71,7 @@ public class TestContext {
                         chromeOptions.addArguments("--disable-gpu");
                     }
                     if (envLinux) {
-                        chromeOptions.setBinary("/usr/bin/chromium-browser");
+                        chromeOptions.setBinary("/usr/bin/google-chrome-stable");
                     }
                     ChromeDriverService service = new ChromeDriverService.Builder()
                             .withLogOutput(System.out)
